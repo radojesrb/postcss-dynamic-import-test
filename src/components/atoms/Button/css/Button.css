@@ -1,0 +1,44 @@
+@import './variables';
+
+.a-button {
+  display: block;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  color: var(--button-primary);
+  cursor: pointer;
+
+  // reset default button styles
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+}
+
+/* colors */
+.a-button--color-primary {
+  background-color: var(--button-primary);
+}
+.a-button--color-secondary {
+  background-color: var(--button-secondary);
+}
+.a-button--color-dark {
+  background-color: var(--button-dark);
+}
+
+/* sizes */
+.a-button--size-s {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+.a-button--size-m {
+  padding: 8px 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.a-button--size-l {
+  padding: 8px 24px;
+  font-size: 20px;
+}

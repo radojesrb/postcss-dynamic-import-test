@@ -1,0 +1,6 @@
+/* purpose of variable file is possibility for easy theming */
+:root {
+  --button-primary: dupe;
+  --button-secondary: picka;
+  --button-dark: sise;
+}
